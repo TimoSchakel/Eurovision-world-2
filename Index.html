@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eurovision World - Home</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #090d2b;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 65px 20px;
+            background: linear-gradient(135deg, #5425d8, #e52e91, #ff9b42);
+        }
+
+        header h1 {
+            font-size: 46px;
+            margin: 0 0 15px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: #171c45;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px 10px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #ff83d0;
+        }
+
+        main {
+            max-width: 1050px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 20px;
+            line-height: 1.7;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: #171d49;
+            border: 1px solid #414b8b;
+            border-radius: 15px;
+            padding: 22px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #ffb4e5;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            background: #e52e91;
+            color: white;
+            text-decoration: none;
+            padding: 11px 17px;
+            border-radius: 25px;
+            margin-top: 8px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #b91f72;
+        }
+
+        .highlight {
+            text-align: center;
+            background: linear-gradient(135deg, #28205e, #481e62);
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 35px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 35px;
+            background: #171c45;
+            color: #ccccdd;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 34px;
+            }
+
+            nav a {
+                margin: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🎤 Eurovision World</h1>
+    <p>Alles over het Eurovisie Songfestival!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="geschiedenis.html">Geschiedenis</a>
+    <a href="winnaars.html">Winnaars</a>
+    <a href="momenten.html">Historische momenten</a>
+    <a href="nederland.html">Nederland</a>
+    <a href="weetjes.html">Weetjes</a>
+</nav>
+
+<main>
+
+    <section class="intro">
+        <h2>Welkom in de wereld van Eurovision! 🌍</h2>
+        <p>
+            Het Eurovisie Songfestival is een internationale muziekwedstrijd
+            waarin landen hun artiesten en liedjes aan de wereld laten horen.
+            Van spectaculaire optredens tot indrukwekkende zang en bijzondere
+            kostuums: er is ieder jaar van alles te beleven!
+        </p>
+        <p>
+            Op deze website ontdek je de geschiedenis, de winnaars,
+            bijzondere gebeurtenissen en de rol van Nederland.
+        </p>
+    </section>
+
+    <h2>Ontdek het Songfestival</h2>
+
+    <section class="cards">
+
+        <article class="card">
+            <h3>📖 De geschiedenis</h3>
+            <p>
+                Ontdek hoe het Songfestival begon in 1956 en hoe het
+                uitgroeide tot een groot internationaal muziekevenement.
+            </p>
+            <a class="button" href="geschiedenis.html">Ontdek de geschiedenis</a>
+        </article>
+
+        <article class="card">
+            <h3>🏆 Alle winnaars</h3>
+            <p>
+                Bekijk welke landen het Songfestival hebben gewonnen
+                en welke artiesten met de overwinning naar huis gingen.
+            </p>
+            <a class="button" href="winnaars.html">Bekijk de winnaars</a>
+        </article>
+
+        <article class="card">
+            <h3>✨ Historische momenten</h3>
+            <p>
+                Lees over opvallende gebeurtenissen die het Songfestival
+                door de jaren heen hebben veranderd.
+            </p>
+            <a class="button" href="momenten.html">Bekijk de momenten</a>
+        </article>
+
+        <article class="card">
+            <h3>🇳🇱 Nederland</h3>
+            <p>
+                Ontdek de Nederlandse inzendingen, overwinningen
+                en prestaties tijdens het Songfestival.
+            </p>
+            <a class="button" href="nederland.html">Ontdek Nederland</a>
+        </article>
+
+        <article class="card">
+            <h3>💡 Leuke weetjes</h3>
+            <p>
+                Leer verrassende feiten over het Songfestival,
+                de deelnemende landen en de muziek.
+            </p>
+            <a class="button" href="weetjes.html">Lees de weetjes</a>
+        </article>
+
+    </section>
+
+    <section class="highlight">
+        <h2>🎶 Muziek verbindt Europa</h2>
+        <p>
+            Het Songfestival brengt landen, talen en muziekstijlen samen.
+            Iedereen kan een favoriet hebben, maar er kan maar één winnaar zijn!
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>🎤 Eurovision World | Een website voor Songfestivalfans</p>
+</footer>
+
+</body>
+</html>
